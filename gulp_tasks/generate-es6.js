@@ -14,8 +14,8 @@ gulp.task('es6', ['es6:files'], function () {
   return gulp.src(['index.js'])
     .pipe(replace(/module.exports = {\s+/g, '  '))
     .pipe(replace(/};\s+/g, ''))
-    .pipe(replace(/  /g, 'import '))
-    .pipe(replace(/: require\(/g, ' from '))
+    .pipe(replace(/  /g, 'export { default as '))
+    .pipe(replace(/: require\(/g, ' } from '))
     .pipe(replace(/\),?/g, ';'))
     .pipe(replace(/\/src\//g, '/'))
     .pipe(gulp.dest('./es6'));
