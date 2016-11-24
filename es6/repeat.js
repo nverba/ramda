@@ -1,5 +1,5 @@
-import _curry2 from './internal/_curry2');
-import always from './always');
+import _curry2 from './internal/_curry2';
+import always from './always';
 import times from './times';
 
 

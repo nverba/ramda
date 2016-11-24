@@ -1,6 +1,6 @@
-import _map from './internal/_map');
-import identity from './identity');
-import pickAll from './pickAll');
+import _map from './internal/_map';
+import identity from './identity';
+import pickAll from './pickAll';
 import useWith from './useWith';
 
 

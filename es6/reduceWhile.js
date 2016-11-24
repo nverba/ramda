@@ -1,5 +1,5 @@
-import _curryN from './internal/_curryN');
-import _reduce from './internal/_reduce');
+import _curryN from './internal/_curryN';
+import _reduce from './internal/_reduce';
 import _reduced from './internal/_reduced';
 
 

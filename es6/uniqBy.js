@@ -1,4 +1,4 @@
-import _Set from './internal/_Set');
+import _Set from './internal/_Set';
 import _curry2 from './internal/_curry2';
 
 

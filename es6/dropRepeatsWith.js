@@ -1,6 +1,6 @@
-import _curry2 from './internal/_curry2');
-import _dispatchable from './internal/_dispatchable');
-import _xdropRepeatsWith from './internal/_xdropRepeatsWith');
+import _curry2 from './internal/_curry2';
+import _dispatchable from './internal/_dispatchable';
+import _xdropRepeatsWith from './internal/_xdropRepeatsWith';
 import last from './last';
 
 

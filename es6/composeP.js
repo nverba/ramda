@@ -1,4 +1,4 @@
-import pipeP from './pipeP');
+import pipeP from './pipeP';
 import reverse from './reverse';
 
 

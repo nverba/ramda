@@ -1,6 +1,6 @@
-import _curry2 from './internal/_curry2');
-import _isFunction from './internal/_isFunction');
-import curryN from './curryN');
+import _curry2 from './internal/_curry2';
+import _isFunction from './internal/_isFunction';
+import curryN from './curryN';
 import toString from './toString';
 
 

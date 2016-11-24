@@ -1,4 +1,4 @@
-import _cloneRegExp from './_cloneRegExp');
+import _cloneRegExp from './_cloneRegExp';
 import type from '../type';
 
 

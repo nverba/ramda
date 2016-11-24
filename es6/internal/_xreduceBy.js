@@ -1,5 +1,5 @@
-import _curryN from './_curryN');
-import _has from './_has');
+import _curryN from './_curryN';
+import _has from './_has';
 import _xfBase from './_xfBase';
 
 

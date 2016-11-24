@@ -1,9 +1,9 @@
-import _curry2 from './internal/_curry2');
-import _dispatchable from './internal/_dispatchable');
-import _map from './internal/_map');
-import _reduce from './internal/_reduce');
-import _xmap from './internal/_xmap');
-import curryN from './curryN');
+import _curry2 from './internal/_curry2';
+import _dispatchable from './internal/_dispatchable';
+import _map from './internal/_map';
+import _reduce from './internal/_reduce';
+import _xmap from './internal/_xmap';
+import curryN from './curryN';
 import keys from './keys';
 
 

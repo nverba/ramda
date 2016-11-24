@@ -1,4 +1,4 @@
-import _containsWith from './internal/_containsWith');
+import _containsWith from './internal/_containsWith';
 import _curry3 from './internal/_curry3';
 
 

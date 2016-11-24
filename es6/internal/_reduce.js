@@ -1,5 +1,5 @@
-import _xwrap from './_xwrap');
-import bind from '../bind');
+import _xwrap from './_xwrap';
+import bind from '../bind';
 import isArrayLike from '../isArrayLike';
 
 

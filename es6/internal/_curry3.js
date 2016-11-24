@@ -1,5 +1,5 @@
-import _curry1 from './_curry1');
-import _curry2 from './_curry2');
+import _curry1 from './_curry1';
+import _curry2 from './_curry2';
 import _isPlaceholder from './_isPlaceholder';
 
 

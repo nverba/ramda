@@ -1,4 +1,4 @@
-import _assign from './internal/_assign');
+import _assign from './internal/_assign';
 import _curry1 from './internal/_curry1';
 
 

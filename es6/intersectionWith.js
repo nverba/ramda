@@ -1,5 +1,5 @@
-import _containsWith from './internal/_containsWith');
-import _curry3 from './internal/_curry3');
+import _containsWith from './internal/_containsWith';
+import _curry3 from './internal/_curry3';
 import uniqWith from './uniqWith';
 
 

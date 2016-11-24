@@ -1,6 +1,6 @@
-import _arity from './internal/_arity');
-import _curry1 from './internal/_curry1');
-import _has from './internal/_has');
+import _arity from './internal/_arity';
+import _curry1 from './internal/_curry1';
+import _has from './internal/_has';
 import toString from './toString';
 
 

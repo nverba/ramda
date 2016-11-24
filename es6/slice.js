@@ -1,4 +1,4 @@
-import _checkForMethod from './internal/_checkForMethod');
+import _checkForMethod from './internal/_checkForMethod';
 import _curry3 from './internal/_curry3';
 
 

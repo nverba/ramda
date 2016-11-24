@@ -1,4 +1,4 @@
-import _concat from './internal/_concat');
+import _concat from './internal/_concat';
 import _curry3 from './internal/_curry3';
 
 

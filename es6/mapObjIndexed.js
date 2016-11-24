@@ -1,5 +1,5 @@
-import _curry2 from './internal/_curry2');
-import _reduce from './internal/_reduce');
+import _curry2 from './internal/_curry2';
+import _reduce from './internal/_reduce';
 import keys from './keys';
 
 

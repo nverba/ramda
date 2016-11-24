@@ -1,4 +1,4 @@
-import _arity from './_arity');
+import _arity from './_arity';
 import _curry2 from './_curry2';
 
 

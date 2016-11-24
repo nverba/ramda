@@ -1,4 +1,4 @@
-import _arity from './_arity');
+import _arity from './_arity';
 import _isPlaceholder from './_isPlaceholder';
 
 

@@ -1,6 +1,6 @@
-import _concat from './internal/_concat');
-import _curry2 from './internal/_curry2');
-import compose from './compose');
+import _concat from './internal/_concat';
+import _curry2 from './internal/_curry2';
+import compose from './compose';
 import uniq from './uniq';
 
 

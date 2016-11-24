@@ -1,10 +1,10 @@
-import _curry1 from './internal/_curry1');
-import apply from './apply');
-import curryN from './curryN');
-import map from './map');
-import max from './max');
-import pluck from './pluck');
-import reduce from './reduce');
+import _curry1 from './internal/_curry1';
+import apply from './apply';
+import curryN from './curryN';
+import map from './map';
+import max from './max';
+import pluck from './pluck';
+import reduce from './reduce';
 import values from './values';
 
 

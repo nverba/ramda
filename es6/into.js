@@ -1,7 +1,7 @@
-import _clone from './internal/_clone');
-import _curry3 from './internal/_curry3');
-import _isTransformer from './internal/_isTransformer');
-import _reduce from './internal/_reduce');
+import _clone from './internal/_clone';
+import _curry3 from './internal/_curry3';
+import _isTransformer from './internal/_isTransformer';
+import _reduce from './internal/_reduce';
 import _stepCat from './internal/_stepCat';
 
 

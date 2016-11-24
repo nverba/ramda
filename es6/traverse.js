@@ -1,5 +1,5 @@
-import _curry3 from './internal/_curry3');
-import map from './map');
+import _curry3 from './internal/_curry3';
+import map from './map';
 import sequence from './sequence';
 
 

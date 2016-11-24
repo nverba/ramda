@@ -1,6 +1,6 @@
-import _curry2 from './internal/_curry2');
-import equals from './equals');
-import map from './map');
+import _curry2 from './internal/_curry2';
+import equals from './equals';
+import map from './map';
 import where from './where';
 
 

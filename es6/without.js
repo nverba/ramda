@@ -1,6 +1,6 @@
-import _contains from './internal/_contains');
-import _curry2 from './internal/_curry2');
-import flip from './flip');
+import _contains from './internal/_contains';
+import _curry2 from './internal/_curry2';
+import flip from './flip';
 import reject from './reject';
 
 

@@ -1,4 +1,4 @@
-import _curry1 from './_curry1');
+import _curry1 from './_curry1';
 import _isPlaceholder from './_isPlaceholder';
 
 

@@ -1,5 +1,5 @@
-import _curry2 from './internal/_curry2');
-import assoc from './assoc');
+import _curry2 from './internal/_curry2';
+import assoc from './assoc';
 import dissoc from './dissoc';
 
 

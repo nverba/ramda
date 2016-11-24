@@ -1,5 +1,5 @@
-import _complement from './internal/_complement');
-import _curry2 from './internal/_curry2');
+import _complement from './internal/_complement';
+import _curry2 from './internal/_curry2';
 import filter from './filter';
 
 

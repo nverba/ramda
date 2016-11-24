@@ -1,5 +1,5 @@
-import filter from './filter');
-import juxt from './juxt');
+import filter from './filter';
+import juxt from './juxt';
 import reject from './reject';
 
 

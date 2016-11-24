@@ -1,6 +1,6 @@
-import _curry2 from './internal/_curry2');
-import _isFunction from './internal/_isFunction');
-import lift from './lift');
+import _curry2 from './internal/_curry2';
+import _isFunction from './internal/_isFunction';
+import lift from './lift';
 import or from './or';
 
 

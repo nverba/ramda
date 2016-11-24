@@ -1,7 +1,7 @@
-import _curry1 from './internal/_curry1');
-import _dispatchable from './internal/_dispatchable');
-import _xdropRepeatsWith from './internal/_xdropRepeatsWith');
-import dropRepeatsWith from './dropRepeatsWith');
+import _curry1 from './internal/_curry1';
+import _dispatchable from './internal/_dispatchable';
+import _xdropRepeatsWith from './internal/_xdropRepeatsWith';
+import dropRepeatsWith from './dropRepeatsWith';
 import equals from './equals';
 
 

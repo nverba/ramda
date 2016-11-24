@@ -1,6 +1,6 @@
-import _curry2 from './internal/_curry2');
-import _dispatchable from './internal/_dispatchable');
-import _dropLastWhile from './internal/_dropLastWhile');
+import _curry2 from './internal/_curry2';
+import _dispatchable from './internal/_dispatchable';
+import _dropLastWhile from './internal/_dropLastWhile';
 import _xdropLastWhile from './internal/_xdropLastWhile';
 
 

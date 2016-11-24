@@ -1,4 +1,4 @@
-import _contains from './internal/_contains');
+import _contains from './internal/_contains';
 import _curry2 from './internal/_curry2';
 
 

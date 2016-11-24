@@ -1,8 +1,8 @@
-import _curry2 from './internal/_curry2');
-import _map from './internal/_map');
-import curryN from './curryN');
-import max from './max');
-import pluck from './pluck');
+import _curry2 from './internal/_curry2';
+import _map from './internal/_map';
+import curryN from './curryN';
+import max from './max';
+import pluck from './pluck';
 import reduce from './reduce';
 
 

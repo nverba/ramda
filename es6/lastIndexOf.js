@@ -1,5 +1,5 @@
-import _curry2 from './internal/_curry2');
-import _isArray from './internal/_isArray');
+import _curry2 from './internal/_curry2';
+import _isArray from './internal/_isArray';
 import equals from './equals';
 
 

@@ -1,7 +1,7 @@
-import chain from './chain');
-import compose from './compose');
-import identity from './identity');
-import map from './map');
+import chain from './chain';
+import compose from './compose';
+import identity from './identity';
+import map from './map';
 import prepend from './prepend';
 
 
