@@ -1,6 +1,6 @@
-import _curry2 from './internal/_curry2';
-import _dispatchable from './internal/_dispatchable';
-import _xany from './internal/_xany';
+import _curry2 from ('./internal/_curry2');
+import _dispatchable from ('./internal/_dispatchable');
+import _xany from ('./internal/_xany');
 
 
 /**

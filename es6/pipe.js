@@ -1,7 +1,7 @@
-import _arity from './internal/_arity';
-import _pipe from './internal/_pipe';
-import reduce from './reduce';
-import tail from './tail';
+import _arity from ('./internal/_arity');
+import _pipe from ('./internal/_pipe');
+import reduce from ('./reduce');
+import tail from ('./tail');
 
 
 /**
@@ -29,7 +29,7 @@ import tail from './tail';
  */
 export default function pipe() {
   if (arguments.length === 0) {
-    throw new Error('pipe requires at least one argument';
+    throw new Error('pipe requires at least one argument');
   }
   return _arity(arguments[0].length,
                 reduce(_pipe, arguments[0], tail(arguments)));

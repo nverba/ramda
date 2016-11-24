@@ -1,5 +1,5 @@
-import _curry2 from './internal/_curry2';
-import _isNumber from './internal/_isNumber';
+import _curry2 from ('./internal/_curry2');
+import _isNumber from ('./internal/_isNumber');
 
 
 /**
@@ -20,7 +20,7 @@ import _isNumber from './internal/_isNumber';
  */
 export default _curry2(function range(from, to) {
   if (!(_isNumber(from) && _isNumber(to))) {
-    throw new TypeError('Both arguments to range must be numbers';
+    throw new TypeError('Both arguments to range must be numbers');
   }
   var result = [];
   var n = from;

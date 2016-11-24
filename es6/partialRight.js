@@ -1,6 +1,6 @@
-import _concat from './internal/_concat';
-import _createPartialApplicator from './internal/_createPartialApplicator';
-import flip from './flip';
+import _concat from ('./internal/_concat');
+import _createPartialApplicator from ('./internal/_createPartialApplicator');
+import flip from ('./flip');
 
 
 /**
@@ -24,7 +24,7 @@ import flip from './flip';
  *
  *      var greetMsJaneJones = R.partialRight(greet, ['Ms.', 'Jane', 'Jones']);
  *
- *      greetMsJaneJones('Hello'; //=> 'Hello, Ms. Jane Jones!'
+ *      greetMsJaneJones('Hello'); //=> 'Hello, Ms. Jane Jones!'
  * @symb R.partialRight(f, [a, b])(c, d) = f(c, d, a, b)
  */
 export default _createPartialApplicator(flip(_concat));

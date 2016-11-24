@@ -1,4 +1,4 @@
-import _curry1 from './internal/_curry1';
+import _curry1 from ('./internal/_curry1');
 
 
 /**
@@ -19,7 +19,7 @@ import _curry1 from './internal/_curry1';
  *      R.type({}); //=> "Object"
  *      R.type(1); //=> "Number"
  *      R.type(false); //=> "Boolean"
- *      R.type('s'; //=> "String"
+ *      R.type('s'); //=> "String"
  *      R.type(null); //=> "Null"
  *      R.type([]); //=> "Array"
  *      R.type(/[A-z]/); //=> "RegExp"

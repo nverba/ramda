@@ -1,4 +1,4 @@
-import _curry2 from './internal/_curry2';
+import _curry2 from ('./internal/_curry2');
 
 
 /**
@@ -18,8 +18,8 @@ import _curry2 from './internal/_curry2';
  * @see R.test
  * @example
  *
- *      R.match(/([a-z]a)/g, 'bananas'; //=> ['ba', 'na', 'na']
- *      R.match(/a/, 'b'; //=> []
+ *      R.match(/([a-z]a)/g, 'bananas'); //=> ['ba', 'na', 'na']
+ *      R.match(/a/, 'b'); //=> []
  *      R.match(/a/, null); //=> TypeError: null does not have a method named "match"
  */
 export default _curry2(function match(rx, str) {

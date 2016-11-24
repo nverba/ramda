@@ -1,7 +1,7 @@
-import _curry2 from './internal/_curry2';
-import _dispatchable from './internal/_dispatchable';
-import _xtake from './internal/_xtake';
-import slice from './slice';
+import _curry2 from ('./internal/_curry2');
+import _dispatchable from ('./internal/_dispatchable');
+import _xtake from ('./internal/_xtake');
+import slice from ('./slice');
 
 
 /**
@@ -26,7 +26,7 @@ import slice from './slice';
  *      R.take(2, ['foo', 'bar', 'baz']); //=> ['foo', 'bar']
  *      R.take(3, ['foo', 'bar', 'baz']); //=> ['foo', 'bar', 'baz']
  *      R.take(4, ['foo', 'bar', 'baz']); //=> ['foo', 'bar', 'baz']
- *      R.take(3, 'ramda';               //=> 'ram'
+ *      R.take(3, 'ramda');               //=> 'ram'
  *
  *      var personnel = [
  *        'Dave Brubeck',

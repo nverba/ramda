@@ -1,6 +1,6 @@
-import _curryN from './_curryN';
-import _has from './_has';
-import _xfBase from './_xfBase';
+import _curryN from ('./_curryN');
+import _has from ('./_has');
+import _xfBase from ('./_xfBase');
 
 
 export default (function() {

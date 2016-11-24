@@ -1,8 +1,8 @@
-import _curry1 from './internal/_curry1';
-import curryN from './curryN';
-import max from './max';
-import pluck from './pluck';
-import reduce from './reduce';
+import _curry1 from ('./internal/_curry1');
+import curryN from ('./curryN');
+import max from ('./max');
+import pluck from ('./pluck');
+import reduce from ('./reduce');
 
 
 /**
@@ -23,8 +23,8 @@ import reduce from './reduce';
  * @see R.allPass
  * @example
  *
- *      var isClub = R.propEq('suit', '♣';
- *      var isSpade = R.propEq('suit', '♠';
+ *      var isClub = R.propEq('suit', '♣');
+ *      var isSpade = R.propEq('suit', '♠');
  *      var isBlackCard = R.anyPass([isClub, isSpade]);
  *
  *      isBlackCard({rank: '10', suit: '♣'}); //=> true

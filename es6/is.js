@@ -1,4 +1,4 @@
-import _curry2 from './internal/_curry2';
+import _curry2 from ('./internal/_curry2');
 
 
 /**
@@ -18,10 +18,10 @@ import _curry2 from './internal/_curry2';
  *      R.is(Object, {}); //=> true
  *      R.is(Number, 1); //=> true
  *      R.is(Object, 1); //=> false
- *      R.is(String, 's'; //=> true
+ *      R.is(String, 's'); //=> true
  *      R.is(String, new String('')); //=> true
  *      R.is(Object, new String('')); //=> true
- *      R.is(Object, 's'; //=> false
+ *      R.is(Object, 's'); //=> false
  *      R.is(Number, {}); //=> false
  */
 export default _curry2(function is(Ctor, val) {

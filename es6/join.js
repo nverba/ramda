@@ -1,4 +1,4 @@
-import invoker from './invoker';
+import invoker from ('./invoker');
 
 
 /**
@@ -16,8 +16,8 @@ import invoker from './invoker';
  * @see R.split
  * @example
  *
- *      var spacer = R.join(' ';
+ *      var spacer = R.join(' ');
  *      spacer(['a', 2, 3.4]);   //=> 'a 2 3.4'
  *      R.join('|', [1, 2, 3]);    //=> '1|2|3'
  */
-export default invoker(1, 'join';
+export default invoker(1, 'join');

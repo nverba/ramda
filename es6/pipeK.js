@@ -1,5 +1,5 @@
-import composeK from './composeK';
-import reverse from './reverse';
+import composeK from ('./composeK');
+import reverse from ('./reverse');
 
 /**
  * Returns the left-to-right Kleisli composition of the provided functions,

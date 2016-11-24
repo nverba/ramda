@@ -3,7 +3,7 @@ export default (function() {
     this.f = fn;
   }
   XWrap.prototype['@@transducer/init'] = function() {
-    throw new Error('init not implemented on XWrap';
+    throw new Error('init not implemented on XWrap');
   };
   XWrap.prototype['@@transducer/result'] = function(acc) { return acc; };
   XWrap.prototype['@@transducer/step'] = function(acc, x) {

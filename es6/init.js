@@ -1,4 +1,4 @@
-import slice from './slice';
+import slice from ('./slice');
 
 
 /**
@@ -20,9 +20,9 @@ import slice from './slice';
  *      R.init([1]);        //=> []
  *      R.init([]);         //=> []
  *
- *      R.init('abc';  //=> 'ab'
- *      R.init('ab';   //=> 'a'
- *      R.init('a';    //=> ''
- *      R.init('';     //=> ''
+ *      R.init('abc');  //=> 'ab'
+ *      R.init('ab');   //=> 'a'
+ *      R.init('a');    //=> ''
+ *      R.init('');     //=> ''
  */
 export default slice(0, -1);

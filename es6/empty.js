@@ -1,8 +1,8 @@
-import _curry1 from './internal/_curry1';
-import _isArguments from './internal/_isArguments';
-import _isArray from './internal/_isArray';
-import _isObject from './internal/_isObject';
-import _isString from './internal/_isString';
+import _curry1 from ('./internal/_curry1');
+import _isArguments from ('./internal/_isArguments');
+import _isArray from ('./internal/_isArray');
+import _isObject from ('./internal/_isObject');
+import _isString from ('./internal/_isString');
 
 
 /**
@@ -24,7 +24,7 @@ import _isString from './internal/_isString';
  *
  *      R.empty(Just(42));      //=> Nothing()
  *      R.empty([1, 2, 3]);     //=> []
- *      R.empty('unicorns';    //=> ''
+ *      R.empty('unicorns');    //=> ''
  *      R.empty({x: 1, y: 2});  //=> {}
  */
 export default _curry1(function empty(x) {

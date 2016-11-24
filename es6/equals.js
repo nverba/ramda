@@ -1,5 +1,5 @@
-import _curry2 from './internal/_curry2';
-import _equals from './internal/_equals';
+import _curry2 from ('./internal/_curry2');
+import _equals from ('./internal/_equals');
 
 
 /**
@@ -20,7 +20,7 @@ import _equals from './internal/_equals';
  * @example
  *
  *      R.equals(1, 1); //=> true
- *      R.equals(1, '1'; //=> false
+ *      R.equals(1, '1'); //=> false
  *      R.equals([1, 2, 3], [1, 2, 3]); //=> true
  *
  *      var a = {}; a.v = a;

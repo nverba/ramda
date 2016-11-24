@@ -1,6 +1,6 @@
-import _curry2 from './internal/_curry2';
-import length from './length';
-import slice from './slice';
+import _curry2 from ('./internal/_curry2');
+import length from ('./length');
+import slice from ('./slice');
 
 
 /**
@@ -18,8 +18,8 @@ import slice from './slice';
  * @example
  *
  *      R.splitAt(1, [1, 2, 3]);          //=> [[1], [2, 3]]
- *      R.splitAt(5, 'hello world';      //=> ['hello', ' world']
- *      R.splitAt(-1, 'foobar';          //=> ['fooba', 'r']
+ *      R.splitAt(5, 'hello world');      //=> ['hello', ' world']
+ *      R.splitAt(-1, 'foobar');          //=> ['fooba', 'r']
  */
 export default _curry2(function splitAt(index, array) {
   return [slice(0, index, array), slice(index, length(array), array)];

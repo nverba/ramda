@@ -1,4 +1,4 @@
-import _curry3 from './internal/_curry3';
+import _curry3 from ('./internal/_curry3');
 
 
 /**
@@ -15,11 +15,11 @@ import _curry3 from './internal/_curry3';
  * @return {String} The result.
  * @example
  *
- *      R.replace('foo', 'bar', 'foo foo foo'; //=> 'bar foo foo'
- *      R.replace(/foo/, 'bar', 'foo foo foo'; //=> 'bar foo foo'
+ *      R.replace('foo', 'bar', 'foo foo foo'); //=> 'bar foo foo'
+ *      R.replace(/foo/, 'bar', 'foo foo foo'); //=> 'bar foo foo'
  *
  *      // Use the "g" (global) flag to replace all occurrences:
- *      R.replace(/foo/g, 'bar', 'foo foo foo'; //=> 'bar bar bar'
+ *      R.replace(/foo/g, 'bar', 'foo foo foo'); //=> 'bar bar bar'
  */
 export default _curry3(function replace(regex, replacement, str) {
   return str.replace(regex, replacement);

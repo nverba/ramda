@@ -1,4 +1,4 @@
-import _curry2 from './_curry2';
+import _curry2 from ('./_curry2');
 
 
 export default (function() {

@@ -1,7 +1,7 @@
-import _curry2 from './internal/_curry2';
-import _isArray from './internal/_isArray';
-import _isFunction from './internal/_isFunction';
-import toString from './toString';
+import _curry2 from ('./internal/_curry2');
+import _isArray from ('./internal/_isArray');
+import _isFunction from ('./internal/_isFunction');
+import toString from ('./toString');
 
 
 /**
@@ -26,16 +26,16 @@ import toString from './toString';
  *
  * @example
  *
- *      R.concat('ABC', 'DEF'; // 'ABCDEF'
+ *      R.concat('ABC', 'DEF'); // 'ABCDEF'
  *      R.concat([4, 5, 6], [1, 2, 3]); //=> [4, 5, 6, 1, 2, 3]
  *      R.concat([], []); //=> []
  */
 export default _curry2(function concat(a, b) {
   if (a == null || !_isFunction(a.concat)) {
-    throw new TypeError(toString(a) + ' does not have a method named "concat"';
+    throw new TypeError(toString(a) + ' does not have a method named "concat"');
   }
   if (_isArray(a) && !_isArray(b)) {
-    throw new TypeError(toString(b) + ' is not an array';
+    throw new TypeError(toString(b) + ' is not an array');
   }
   return a.concat(b);
 });

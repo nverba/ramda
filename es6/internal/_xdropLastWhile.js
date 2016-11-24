@@ -1,6 +1,6 @@
-import _curry2 from './_curry2';
-import _reduce from './_reduce';
-import _xfBase from './_xfBase';
+import _curry2 from ('./_curry2');
+import _reduce from ('./_reduce');
+import _xfBase from ('./_xfBase');
 
 export default (function() {
   function XDropLastWhile(fn, xf) {

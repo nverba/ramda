@@ -1,5 +1,5 @@
-import _checkForMethod from './internal/_checkForMethod';
-import slice from './slice';
+import _checkForMethod from ('./internal/_checkForMethod');
+import slice from ('./slice');
 
 
 /**
@@ -24,9 +24,9 @@ import slice from './slice';
  *      R.tail([1]);        //=> []
  *      R.tail([]);         //=> []
  *
- *      R.tail('abc';  //=> 'bc'
- *      R.tail('ab';   //=> 'b'
- *      R.tail('a';    //=> ''
- *      R.tail('';     //=> ''
+ *      R.tail('abc');  //=> 'bc'
+ *      R.tail('ab');   //=> 'b'
+ *      R.tail('a');    //=> ''
+ *      R.tail('');     //=> ''
  */
 export default _checkForMethod('tail', slice(1, Infinity));

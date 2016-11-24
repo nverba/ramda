@@ -1,5 +1,5 @@
-import _curry1 from './internal/_curry1';
-import curry from './curry';
+import _curry1 from ('./internal/_curry1');
+import curry from ('./curry');
 
 
 /**

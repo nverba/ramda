@@ -1,6 +1,6 @@
-import _curry1 from './internal/_curry1';
-import empty from './empty';
-import equals from './equals';
+import _curry1 from ('./internal/_curry1');
+import empty from ('./empty');
+import equals from ('./equals');
 
 
 /**
@@ -19,7 +19,7 @@ import equals from './equals';
  *
  *      R.isEmpty([1, 2, 3]);   //=> false
  *      R.isEmpty([]);          //=> true
- *      R.isEmpty('';          //=> true
+ *      R.isEmpty('');          //=> true
  *      R.isEmpty(null);        //=> false
  *      R.isEmpty({});          //=> true
  *      R.isEmpty({length: 0}); //=> false

@@ -1,8 +1,8 @@
-import _curry3 from './internal/_curry3';
-import _has from './internal/_has';
-import _isArray from './internal/_isArray';
-import _isInteger from './internal/_isInteger';
-import assoc from './assoc';
+import _curry3 from ('./internal/_curry3');
+import _has from ('./internal/_has');
+import _isArray from ('./internal/_isArray');
+import _isInteger from ('./internal/_isInteger');
+import assoc from ('./assoc');
 
 
 /**

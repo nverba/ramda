@@ -1,4 +1,4 @@
-import _curry2 from './internal/_curry2';
+import _curry2 from ('./internal/_curry2');
 
 
 /**
@@ -19,7 +19,7 @@ import _curry2 from './internal/_curry2';
  *
  *      defaultTo42(null);  //=> 42
  *      defaultTo42(undefined);  //=> 42
- *      defaultTo42('Ramda';  //=> 'Ramda'
+ *      defaultTo42('Ramda');  //=> 'Ramda'
  *      // parseInt('string') results in NaN
  *      defaultTo42(parseInt('string')); //=> 42
  */

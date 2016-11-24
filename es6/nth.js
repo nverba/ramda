@@ -1,5 +1,5 @@
-import _curry2 from './internal/_curry2';
-import _isString from './internal/_isString';
+import _curry2 from ('./internal/_curry2');
+import _isString from ('./internal/_isString');
 
 
 /**
@@ -22,8 +22,8 @@ import _isString from './internal/_isString';
  *      R.nth(-1, list); //=> 'quux'
  *      R.nth(-99, list); //=> undefined
  *
- *      R.nth(2, 'abc'; //=> 'c'
- *      R.nth(3, 'abc'; //=> ''
+ *      R.nth(2, 'abc'); //=> 'c'
+ *      R.nth(3, 'abc'); //=> ''
  * @symb R.nth(-1, [a, b, c]) = c
  * @symb R.nth(0, [a, b, c]) = a
  * @symb R.nth(1, [a, b, c]) = b

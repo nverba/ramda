@@ -1,7 +1,7 @@
-import _curry2 from './internal/_curry2';
-import _isFunction from './internal/_isFunction';
-import curryN from './curryN';
-import toString from './toString';
+import _curry2 from ('./internal/_curry2');
+import _isFunction from ('./internal/_isFunction');
+import curryN from ('./curryN');
+import toString from ('./toString');
 
 
 /**
@@ -22,10 +22,10 @@ import toString from './toString';
  * @return {Function} A new curried function.
  * @example
  *
- *      var sliceFrom = R.invoker(1, 'slice';
- *      sliceFrom(6, 'abcdefghijklm'; //=> 'ghijklm'
+ *      var sliceFrom = R.invoker(1, 'slice');
+ *      sliceFrom(6, 'abcdefghijklm'); //=> 'ghijklm'
  *      var sliceFrom6 = R.invoker(2, 'slice')(6);
- *      sliceFrom6(8, 'abcdefghijklm'; //=> 'gh'
+ *      sliceFrom6(8, 'abcdefghijklm'); //=> 'gh'
  * @symb R.invoker(0, 'method')(o) = o['method']()
  * @symb R.invoker(1, 'method')(a, o) = o['method'](a)
  * @symb R.invoker(2, 'method')(a, b, o) = o['method'](a, b)
@@ -36,6 +36,6 @@ export default _curry2(function invoker(arity, method) {
     if (target != null && _isFunction(target[method])) {
       return target[method].apply(target, Array.prototype.slice.call(arguments, 0, arity));
     }
-    throw new TypeError(toString(target) + ' does not have a method named "' + method + '"';
+    throw new TypeError(toString(target) + ' does not have a method named "' + method + '"');
   });
 });

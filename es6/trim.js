@@ -1,4 +1,4 @@
-import _curry1 from './internal/_curry1';
+import _curry1 from ('./internal/_curry1');
 
 
 /**
@@ -13,7 +13,7 @@ import _curry1 from './internal/_curry1';
  * @return {String} Trimmed version of `str`.
  * @example
  *
- *      R.trim('   xyz  '; //=> 'xyz'
+ *      R.trim('   xyz  '); //=> 'xyz'
  *      R.map(R.trim, R.split(',', 'x, y, z')); //=> ['x', 'y', 'z']
  */
 export default (function() {
@@ -21,12 +21,12 @@ export default (function() {
            '\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u202F\u205F\u3000\u2028' +
            '\u2029\uFEFF';
   var zeroWidth = '\u200b';
-  var hasProtoTrim = (typeof String.prototype.trim === 'function';
+  var hasProtoTrim = (typeof String.prototype.trim === 'function');
   if (!hasProtoTrim || (ws.trim() || !zeroWidth.trim())) {
     return _curry1(function trim(str) {
-      var beginRx = new RegExp('^[' + ws + '][' + ws + ']*';
-      var endRx = new RegExp('[' + ws + '][' + ws + ']*$';
-      return str.replace(beginRx, '').replace(endRx, '';
+      var beginRx = new RegExp('^[' + ws + '][' + ws + ']*');
+      var endRx = new RegExp('[' + ws + '][' + ws + ']*$');
+      return str.replace(beginRx, '').replace(endRx, '');
     });
   } else {
     return _curry1(function trim(str) {

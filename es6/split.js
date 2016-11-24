@@ -1,4 +1,4 @@
-import invoker from './invoker';
+import invoker from ('./invoker');
 
 
 /**
@@ -16,9 +16,9 @@ import invoker from './invoker';
  * @see R.join
  * @example
  *
- *      var pathComponents = R.split('/';
+ *      var pathComponents = R.split('/');
  *      R.tail(pathComponents('/usr/local/bin/node')); //=> ['usr', 'local', 'bin', 'node']
  *
- *      R.split('.', 'a.b.c.xyz.d'; //=> ['a', 'b', 'c', 'xyz', 'd']
+ *      R.split('.', 'a.b.c.xyz.d'); //=> ['a', 'b', 'c', 'xyz', 'd']
  */
-export default invoker(1, 'split';
+export default invoker(1, 'split');

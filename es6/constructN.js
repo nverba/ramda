@@ -1,6 +1,6 @@
-import _curry2 from './internal/_curry2';
-import curry from './curry';
-import nAry from './nAry';
+import _curry2 from ('./internal/_curry2');
+import curry from ('./curry');
+import nAry from ('./nAry');
 
 
 /**
@@ -40,7 +40,7 @@ import nAry from './nAry';
  */
 export default _curry2(function constructN(n, Fn) {
   if (n > 10) {
-    throw new Error('Constructor with greater than ten arguments';
+    throw new Error('Constructor with greater than ten arguments');
   }
   if (n === 0) {
     return function() { return new Fn(); };

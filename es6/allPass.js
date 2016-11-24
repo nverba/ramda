@@ -1,8 +1,8 @@
-import _curry1 from './internal/_curry1';
-import curryN from './curryN';
-import max from './max';
-import pluck from './pluck';
-import reduce from './reduce';
+import _curry1 from ('./internal/_curry1');
+import curryN from ('./curryN');
+import max from ('./max');
+import pluck from ('./pluck');
+import reduce from ('./reduce');
 
 
 /**
@@ -23,8 +23,8 @@ import reduce from './reduce';
  * @see R.anyPass
  * @example
  *
- *      var isQueen = R.propEq('rank', 'Q';
- *      var isSpade = R.propEq('suit', '♠︎';
+ *      var isQueen = R.propEq('rank', 'Q');
+ *      var isSpade = R.propEq('suit', '♠︎');
  *      var isQueenOfSpades = R.allPass([isQueen, isSpade]);
  *
  *      isQueenOfSpades({rank: 'Q', suit: '♣︎'}); //=> false

@@ -1,5 +1,5 @@
-import _curry1 from './internal/_curry1';
-import _isString from './internal/_isString';
+import _curry1 from ('./internal/_curry1');
+import _isString from ('./internal/_isString');
 
 
 /**
@@ -21,10 +21,10 @@ import _isString from './internal/_isString';
  *      R.reverse([1]);        //=> [1]
  *      R.reverse([]);         //=> []
  *
- *      R.reverse('abc';      //=> 'cba'
- *      R.reverse('ab';       //=> 'ba'
- *      R.reverse('a';        //=> 'a'
- *      R.reverse('';         //=> ''
+ *      R.reverse('abc');      //=> 'cba'
+ *      R.reverse('ab');       //=> 'ba'
+ *      R.reverse('a');        //=> 'a'
+ *      R.reverse('');         //=> ''
  */
 export default _curry1(function reverse(list) {
   return _isString(list) ? list.split('').reverse().join('') :
