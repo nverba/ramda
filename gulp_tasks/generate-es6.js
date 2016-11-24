@@ -17,6 +17,6 @@ gulp.task('es6', ['es6:files'], function () {
     .pipe(replace(/  /g, 'import '))
     .pipe(replace(/: require\(/g, ' from '))
     .pipe(replace(/\),?/g, ';'))
-    .pipe(replace(/src/g, 'es6'))
+    .pipe(replace(/src/g, '/'))
     .pipe(gulp.dest('./es6'));
 });
