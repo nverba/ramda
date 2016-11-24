@@ -1,5 +1,5 @@
-import _concat from './internal/_concat'
-import _createPartialApplicator from './internal/_createPartialApplicator'
+import _concat from './internal/_concat';
+import _createPartialApplicator from './internal/_createPartialApplicator';
 
 
 /**
@@ -27,7 +27,7 @@ import _createPartialApplicator from './internal/_createPartialApplicator'
  *
  *      var sayHello = R.partial(greet, ['Hello']);
  *      var sayHelloToMs = R.partial(sayHello, ['Ms.']);
- *      sayHelloToMs('Jane', 'Jones' //=> 'Hello, Ms. Jane Jones!'
+ *      sayHelloToMs('Jane', 'Jones'; //=> 'Hello, Ms. Jane Jones!'
  * @symb R.partial(f, [a, b])(c, d) = f(a, b, c, d)
  */
 export default _createPartialApplicator(_concat);

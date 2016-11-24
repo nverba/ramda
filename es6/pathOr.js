@@ -1,6 +1,6 @@
-import _curry3 from './internal/_curry3'
-import defaultTo from './defaultTo'
-import path from './path'
+import _curry3 from './internal/_curry3';
+import defaultTo from './defaultTo';
+import path from './path';
 
 
 /**

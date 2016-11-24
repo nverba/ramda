@@ -1,4 +1,4 @@
-import _curry2 from './internal/_curry2'
+import _curry2 from './internal/_curry2';
 
 
 /**
@@ -19,7 +19,7 @@ import _curry2 from './internal/_curry2'
  *      var o = {};
  *      R.identical(o, o); //=> true
  *      R.identical(1, 1); //=> true
- *      R.identical(1, '1' //=> false
+ *      R.identical(1, '1'; //=> false
  *      R.identical([], []); //=> false
  *      R.identical(0, -0); //=> false
  *      R.identical(NaN, NaN); //=> true

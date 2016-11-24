@@ -1,9 +1,9 @@
-import _contains from './_contains'
-import _map from './_map'
-import _quote from './_quote'
-import _toISOString from './_toISOString'
-import keys from '../keys'
-import reject from '../reject'
+import _contains from './_contains';
+import _map from './_map';
+import _quote from './_quote';
+import _toISOString from './_toISOString';
+import keys from '../keys';
+import reject from '../reject';
 
 
 export default function _toString(x, seen) {

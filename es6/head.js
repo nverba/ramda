@@ -1,4 +1,4 @@
-import nth from './nth'
+import nth from './nth';
 
 
 /**
@@ -19,7 +19,7 @@ import nth from './nth'
  *      R.head(['fi', 'fo', 'fum']); //=> 'fi'
  *      R.head([]); //=> undefined
  *
- *      R.head('abc' //=> 'a'
- *      R.head('' //=> ''
+ *      R.head('abc'; //=> 'a'
+ *      R.head(''; //=> ''
  */
 export default nth(0);

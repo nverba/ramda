@@ -1,5 +1,5 @@
-import _checkForMethod from './internal/_checkForMethod'
-import _curry3 from './internal/_curry3'
+import _checkForMethod from './internal/_checkForMethod';
+import _curry3 from './internal/_curry3';
 
 
 /**
@@ -24,7 +24,7 @@ import _curry3 from './internal/_curry3'
  *      R.slice(1, Infinity, ['a', 'b', 'c', 'd']); //=> ['b', 'c', 'd']
  *      R.slice(0, -1, ['a', 'b', 'c', 'd']);       //=> ['a', 'b', 'c']
  *      R.slice(-3, -1, ['a', 'b', 'c', 'd']);      //=> ['b', 'c']
- *      R.slice(0, 3, 'ramda'                     //=> 'ram'
+ *      R.slice(0, 3, 'ramda';                     //=> 'ram'
  */
 export default _curry3(_checkForMethod('slice', function slice(fromIndex, toIndex, list) {
   return Array.prototype.slice.call(list, fromIndex, toIndex);

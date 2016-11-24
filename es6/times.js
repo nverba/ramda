@@ -1,4 +1,4 @@
-import _curry2 from './internal/_curry2'
+import _curry2 from './internal/_curry2';
 
 
 /**
@@ -29,7 +29,7 @@ export default _curry2(function times(fn, n) {
   var list;
 
   if (len < 0 || isNaN(len)) {
-    throw new RangeError('n must be a non-negative number'
+    throw new RangeError('n must be a non-negative number';
   }
   list = new Array(len);
   while (idx < len) {

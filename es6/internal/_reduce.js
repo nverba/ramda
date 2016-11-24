@@ -1,6 +1,6 @@
-import _xwrap from './_xwrap'
-import bind from '../bind'
-import isArrayLike from '../isArrayLike'
+import _xwrap from './_xwrap';
+import bind from '../bind';
+import isArrayLike from '../isArrayLike';
 
 
 export default (function() {
@@ -52,6 +52,6 @@ export default (function() {
     if (typeof list.next === 'function') {
       return _iterableReduce(fn, acc, list);
     }
-    throw new TypeError('reduce: list must be array or iterable'
+    throw new TypeError('reduce: list must be array or iterable';
   };
 }());

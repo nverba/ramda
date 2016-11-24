@@ -1,4 +1,4 @@
-import _contains from './_contains'
+import _contains from './_contains';
 
 
 // A simple Set type that honours R.equals semantics

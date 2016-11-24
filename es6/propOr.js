@@ -1,5 +1,5 @@
-import _curry3 from './internal/_curry3'
-import _has from './internal/_has'
+import _curry3 from './internal/_curry3';
+import _has from './internal/_has';
 
 
 /**
@@ -22,8 +22,8 @@ import _has from './internal/_has'
  *        name: 'ALICE',
  *        age: 101
  *      };
- *      var favorite = R.prop('favoriteLibrary'
- *      var favoriteWithDefault = R.propOr('Ramda', 'favoriteLibrary'
+ *      var favorite = R.prop('favoriteLibrary';
+ *      var favoriteWithDefault = R.propOr('Ramda', 'favoriteLibrary';
  *
  *      favorite(alice);  //=> undefined
  *      favoriteWithDefault(alice);  //=> 'Ramda'

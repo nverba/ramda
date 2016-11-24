@@ -1,4 +1,4 @@
-import _curry2 from './internal/_curry2'
+import _curry2 from './internal/_curry2';
 
 
 /**
@@ -19,7 +19,7 @@ import _curry2 from './internal/_curry2'
  *      R.lte(2, 1); //=> false
  *      R.lte(2, 2); //=> true
  *      R.lte(2, 3); //=> true
- *      R.lte('a', 'z' //=> true
- *      R.lte('z', 'a' //=> false
+ *      R.lte('a', 'z'; //=> true
+ *      R.lte('z', 'a'; //=> false
  */
 export default _curry2(function lte(a, b) { return a <= b; });

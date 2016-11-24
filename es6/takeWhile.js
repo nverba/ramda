@@ -1,6 +1,6 @@
-import _curry2 from './internal/_curry2'
-import _dispatchable from './internal/_dispatchable'
-import _xtakeWhile from './internal/_xtakeWhile'
+import _curry2 from './internal/_curry2';
+import _dispatchable from './internal/_dispatchable';
+import _xtakeWhile from './internal/_xtakeWhile';
 
 
 /**

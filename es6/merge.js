@@ -1,5 +1,5 @@
-import _assign from './internal/_assign'
-import _curry2 from './internal/_curry2'
+import _assign from './internal/_assign';
+import _curry2 from './internal/_curry2';
 
 
 /**

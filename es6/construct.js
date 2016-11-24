@@ -1,5 +1,5 @@
-import _curry1 from './internal/_curry1'
-import constructN from './constructN'
+import _curry1 from './internal/_curry1';
+import constructN from './constructN';
 
 
 /**
@@ -26,10 +26,10 @@ import constructN from './constructN'
  *      var AnimalConstructor = R.construct(Animal)
  *
  *      // Notice we no longer need the 'new' keyword:
- *      AnimalConstructor('Pig' //=> {"kind": "Pig", "sighting": function (){...}};
+ *      AnimalConstructor('Pig'; //=> {"kind": "Pig", "sighting": function (){...}};
  *
  *      var animalTypes = ["Lion", "Tiger", "Bear"];
- *      var animalSighting = R.invoker(0, 'sighting'
+ *      var animalSighting = R.invoker(0, 'sighting';
  *      var sightNewAnimal = R.compose(animalSighting, AnimalConstructor);
  *      R.map(sightNewAnimal, animalTypes); //=> ["It's a Lion!", "It's a Tiger!", "It's a Bear!"]
  */

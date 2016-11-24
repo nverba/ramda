@@ -1,7 +1,7 @@
-import _cloneRegExp from './internal/_cloneRegExp'
-import _curry2 from './internal/_curry2'
-import _isRegExp from './internal/_isRegExp'
-import toString from './toString'
+import _cloneRegExp from './internal/_cloneRegExp';
+import _curry2 from './internal/_curry2';
+import _isRegExp from './internal/_isRegExp';
+import toString from './toString';
 
 
 /**
@@ -18,8 +18,8 @@ import toString from './toString'
  * @see R.match
  * @example
  *
- *      R.test(/^x/, 'xyz' //=> true
- *      R.test(/^y/, 'xyz' //=> false
+ *      R.test(/^x/, 'xyz'; //=> true
+ *      R.test(/^y/, 'xyz'; //=> false
  */
 export default _curry2(function test(pattern, str) {
   if (!_isRegExp(pattern)) {

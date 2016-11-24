@@ -1,8 +1,8 @@
-import _assign from './_assign'
-import _identity from './_identity'
-import _isTransformer from './_isTransformer'
-import isArrayLike from '../isArrayLike'
-import objOf from '../objOf'
+import _assign from './_assign';
+import _identity from './_identity';
+import _isTransformer from './_isTransformer';
+import isArrayLike from '../isArrayLike';
+import objOf from '../objOf';
 
 
 export default (function() {

@@ -1,7 +1,7 @@
-import _curry1 from './internal/_curry1'
-import assocPath from './assocPath'
-import lens from './lens'
-import path from './path'
+import _curry1 from './internal/_curry1';
+import assocPath from './assocPath';
+import lens from './lens';
+import path from './path';
 
 
 /**

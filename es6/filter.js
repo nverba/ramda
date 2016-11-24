@@ -1,10 +1,10 @@
-import _curry2 from './internal/_curry2'
-import _dispatchable from './internal/_dispatchable'
-import _filter from './internal/_filter'
-import _isObject from './internal/_isObject'
-import _reduce from './internal/_reduce'
-import _xfilter from './internal/_xfilter'
-import keys from './keys'
+import _curry2 from './internal/_curry2';
+import _dispatchable from './internal/_dispatchable';
+import _filter from './internal/_filter';
+import _isObject from './internal/_isObject';
+import _reduce from './internal/_reduce';
+import _xfilter from './internal/_xfilter';
+import keys from './keys';
 
 
 /**

@@ -21,7 +21,7 @@
  * @category Function
  * @example
  *
- *      var greet = R.replace('{name}', R.__, 'Hello, {name}!'
- *      greet('Alice' //=> 'Hello, Alice!'
+ *      var greet = R.replace('{name}', R.__, 'Hello, {name}!';
+ *      greet('Alice'; //=> 'Hello, Alice!'
  */
 export default {'@@functional/placeholder': true};

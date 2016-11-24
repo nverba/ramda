@@ -1,6 +1,6 @@
-import _curry1 from './internal/_curry1'
-import curryN from './curryN'
-import nth from './nth'
+import _curry1 from './internal/_curry1';
+import curryN from './curryN';
+import nth from './nth';
 
 
 /**
@@ -15,8 +15,8 @@ import nth from './nth'
  * @return {Function}
  * @example
  *
- *      R.nthArg(1)('a', 'b', 'c' //=> 'b'
- *      R.nthArg(-1)('a', 'b', 'c' //=> 'c'
+ *      R.nthArg(1)('a', 'b', 'c'; //=> 'b'
+ *      R.nthArg(-1)('a', 'b', 'c'; //=> 'c'
  * @symb R.nthArg(-1)(a, b, c) = c
  * @symb R.nthArg(0)(a, b, c) = a
  * @symb R.nthArg(1)(a, b, c) = b

@@ -1,4 +1,4 @@
-import nth from './nth'
+import nth from './nth';
 
 
 /**
@@ -18,7 +18,7 @@ import nth from './nth'
  *      R.last(['fi', 'fo', 'fum']); //=> 'fum'
  *      R.last([]); //=> undefined
  *
- *      R.last('abc' //=> 'c'
- *      R.last('' //=> ''
+ *      R.last('abc'; //=> 'c'
+ *      R.last(''; //=> ''
  */
 export default nth(-1);

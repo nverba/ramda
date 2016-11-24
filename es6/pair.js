@@ -1,4 +1,4 @@
-import _curry2 from './internal/_curry2'
+import _curry2 from './internal/_curry2';
 
 
 /**
@@ -15,6 +15,6 @@ import _curry2 from './internal/_curry2'
  * @see R.objOf, R.of
  * @example
  *
- *      R.pair('foo', 'bar' //=> ['foo', 'bar']
+ *      R.pair('foo', 'bar'; //=> ['foo', 'bar']
  */
 export default _curry2(function pair(fst, snd) { return [fst, snd]; });

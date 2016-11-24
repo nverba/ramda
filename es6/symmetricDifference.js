@@ -1,6 +1,6 @@
-import _curry2 from './internal/_curry2'
-import concat from './concat'
-import difference from './difference'
+import _curry2 from './internal/_curry2';
+import concat from './concat';
+import difference from './difference';
 
 
 /**

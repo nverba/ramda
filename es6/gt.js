@@ -1,4 +1,4 @@
-import _curry2 from './internal/_curry2'
+import _curry2 from './internal/_curry2';
 
 
 /**
@@ -19,7 +19,7 @@ import _curry2 from './internal/_curry2'
  *      R.gt(2, 1); //=> true
  *      R.gt(2, 2); //=> false
  *      R.gt(2, 3); //=> false
- *      R.gt('a', 'z' //=> false
- *      R.gt('z', 'a' //=> true
+ *      R.gt('a', 'z'; //=> false
+ *      R.gt('z', 'a'; //=> true
  */
 export default _curry2(function gt(a, b) { return a > b; });

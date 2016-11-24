@@ -1,4 +1,4 @@
-import invoker from './invoker'
+import invoker from './invoker';
 
 
 /**
@@ -14,6 +14,6 @@ import invoker from './invoker'
  * @see R.toUpper
  * @example
  *
- *      R.toLower('XYZ' //=> 'xyz'
+ *      R.toLower('XYZ'; //=> 'xyz'
  */
-export default invoker(0, 'toLowerCase'
+export default invoker(0, 'toLowerCase';

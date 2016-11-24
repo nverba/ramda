@@ -1,4 +1,4 @@
-import _curry2 from './internal/_curry2'
+import _curry2 from './internal/_curry2';
 
 
 /**
@@ -19,7 +19,7 @@ import _curry2 from './internal/_curry2'
  *      R.lt(2, 1); //=> false
  *      R.lt(2, 2); //=> false
  *      R.lt(2, 3); //=> true
- *      R.lt('a', 'z' //=> true
- *      R.lt('z', 'a' //=> false
+ *      R.lt('a', 'z'; //=> true
+ *      R.lt('z', 'a'; //=> false
  */
 export default _curry2(function lt(a, b) { return a < b; });

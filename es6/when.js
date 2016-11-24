@@ -1,4 +1,4 @@
-import _curry3 from './internal/_curry3'
+import _curry3 from './internal/_curry3';
 
 
 /**
@@ -26,8 +26,8 @@ import _curry3 from './internal/_curry3'
  *        R.propSatisfies(R.gt(R.__, 10), 'length'),
  *        R.pipe(R.take(10), R.append('…'), R.join(''))
  *      );
- *      truncate('12345'         //=> '12345'
- *      truncate('0123456789ABC' //=> '0123456789…'
+ *      truncate('12345';         //=> '12345'
+ *      truncate('0123456789ABC'; //=> '0123456789…'
  */
 export default _curry3(function when(pred, whenTrueFn, x) {
   return pred(x) ? whenTrueFn(x) : x;

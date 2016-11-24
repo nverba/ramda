@@ -1,5 +1,5 @@
-import pipeP from './pipeP'
-import reverse from './reverse'
+import pipeP from './pipeP';
+import reverse from './reverse';
 
 
 /**
@@ -38,7 +38,7 @@ import reverse from './reverse'
  */
 export default function composeP() {
   if (arguments.length === 0) {
-    throw new Error('composeP requires at least one argument'
+    throw new Error('composeP requires at least one argument';
   }
   return pipeP.apply(this, reverse(arguments));
 };

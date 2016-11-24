@@ -1,4 +1,4 @@
-import isArrayLike from '../isArrayLike'
+import isArrayLike from '../isArrayLike';
 
 
 /**
