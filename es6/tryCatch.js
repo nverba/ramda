@@ -1,6 +1,6 @@
-import _arity from ('./internal/_arity');
-import _concat from ('./internal/_concat');
-import _curry2 from ('./internal/_curry2');
+import _arity from './internal/_arity');
+import _concat from './internal/_concat');
+import _curry2 from './internal/_curry2';
 
 
 /**

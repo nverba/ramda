@@ -1,5 +1,5 @@
-import _checkForMethod from ('./internal/_checkForMethod');
-import slice from ('./slice');
+import _checkForMethod from './internal/_checkForMethod');
+import slice from './slice';
 
 
 /**

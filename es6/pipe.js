@@ -1,7 +1,7 @@
-import _arity from ('./internal/_arity');
-import _pipe from ('./internal/_pipe');
-import reduce from ('./reduce');
-import tail from ('./tail');
+import _arity from './internal/_arity');
+import _pipe from './internal/_pipe');
+import reduce from './reduce');
+import tail from './tail';
 
 
 /**

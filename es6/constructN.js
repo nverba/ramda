@@ -1,6 +1,6 @@
-import _curry2 from ('./internal/_curry2');
-import curry from ('./curry');
-import nAry from ('./nAry');
+import _curry2 from './internal/_curry2');
+import curry from './curry');
+import nAry from './nAry';
 
 
 /**

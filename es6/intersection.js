@@ -1,8 +1,8 @@
-import _contains from ('./internal/_contains');
-import _curry2 from ('./internal/_curry2');
-import _filter from ('./internal/_filter');
-import flip from ('./flip');
-import uniq from ('./uniq');
+import _contains from './internal/_contains');
+import _curry2 from './internal/_curry2');
+import _filter from './internal/_filter');
+import flip from './flip');
+import uniq from './uniq';
 
 
 /**

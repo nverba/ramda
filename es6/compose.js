@@ -1,5 +1,5 @@
-import pipe from ('./pipe');
-import reverse from ('./reverse');
+import pipe from './pipe');
+import reverse from './reverse';
 
 
 /**

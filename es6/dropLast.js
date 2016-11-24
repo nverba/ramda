@@ -1,7 +1,7 @@
-import _curry2 from ('./internal/_curry2');
-import _dispatchable from ('./internal/_dispatchable');
-import _dropLast from ('./internal/_dropLast');
-import _xdropLast from ('./internal/_xdropLast');
+import _curry2 from './internal/_curry2');
+import _dispatchable from './internal/_dispatchable');
+import _dropLast from './internal/_dropLast');
+import _xdropLast from './internal/_xdropLast';
 
 
 /**

@@ -1,7 +1,7 @@
-import _forceReduced from ('./_forceReduced');
-import _reduce from ('./_reduce');
-import _xfBase from ('./_xfBase');
-import isArrayLike from ('../isArrayLike');
+import _forceReduced from './_forceReduced');
+import _reduce from './_reduce');
+import _xfBase from './_xfBase');
+import isArrayLike from '../isArrayLike';
 
 export default (function() {
   var preservingReduced = function(xf) {

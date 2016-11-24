@@ -1,6 +1,6 @@
-import _xwrap from ('./_xwrap');
-import bind from ('../bind');
-import isArrayLike from ('../isArrayLike');
+import _xwrap from './_xwrap');
+import bind from '../bind');
+import isArrayLike from '../isArrayLike';
 
 
 export default (function() {

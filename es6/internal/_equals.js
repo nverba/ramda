@@ -1,9 +1,9 @@
-import _arrayFromIterator from ('./_arrayFromIterator');
-import _functionName from ('./_functionName');
-import _has from ('./_has');
-import identical from ('../identical');
-import keys from ('../keys');
-import type from ('../type');
+import _arrayFromIterator from './_arrayFromIterator');
+import _functionName from './_functionName');
+import _has from './_has');
+import identical from '../identical');
+import keys from '../keys');
+import type from '../type';
 
 
 export default function _equals(a, b, stackA, stackB) {

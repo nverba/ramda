@@ -1,4 +1,4 @@
-import _has from ('./_has');
+import _has from './_has';
 
 // Based on https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
 export default function _objectAssign(target) {

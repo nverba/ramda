@@ -1,5 +1,5 @@
-import _containsWith from ('./internal/_containsWith');
-import _curry2 from ('./internal/_curry2');
+import _containsWith from './internal/_containsWith');
+import _curry2 from './internal/_curry2';
 
 
 /**

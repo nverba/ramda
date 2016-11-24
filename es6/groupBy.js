@@ -1,6 +1,6 @@
-import _checkForMethod from ('./internal/_checkForMethod');
-import _curry2 from ('./internal/_curry2');
-import reduceBy from ('./reduceBy');
+import _checkForMethod from './internal/_checkForMethod');
+import _curry2 from './internal/_curry2');
+import reduceBy from './reduceBy';
 
 /**
  * Splits a list into sub-lists stored in an object, based on the result of

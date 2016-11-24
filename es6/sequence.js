@@ -1,8 +1,8 @@
-import _curry2 from ('./internal/_curry2');
-import ap from ('./ap');
-import map from ('./map');
-import prepend from ('./prepend');
-import reduceRight from ('./reduceRight');
+import _curry2 from './internal/_curry2');
+import ap from './ap');
+import map from './map');
+import prepend from './prepend');
+import reduceRight from './reduceRight';
 
 
 /**

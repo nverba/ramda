@@ -1,8 +1,8 @@
-import _curry2 from ('./internal/_curry2');
-import _reduce from ('./internal/_reduce');
-import ap from ('./ap');
-import curryN from ('./curryN');
-import map from ('./map');
+import _curry2 from './internal/_curry2');
+import _reduce from './internal/_reduce');
+import ap from './ap');
+import curryN from './curryN');
+import map from './map';
 
 
 /**

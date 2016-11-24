@@ -1,6 +1,6 @@
-import _concat from ('./_concat');
-import _curry2 from ('./_curry2');
-import _xfBase from ('./_xfBase');
+import _concat from './_concat');
+import _curry2 from './_curry2');
+import _xfBase from './_xfBase';
 
 
 export default (function() {

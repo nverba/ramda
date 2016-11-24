@@ -1,6 +1,6 @@
-import _curry2 from ('./internal/_curry2');
-import map from ('./map');
-import prop from ('./prop');
+import _curry2 from './internal/_curry2');
+import map from './map');
+import prop from './prop';
 
 
 /**

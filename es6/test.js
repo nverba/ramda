@@ -1,7 +1,7 @@
-import _cloneRegExp from ('./internal/_cloneRegExp');
-import _curry2 from ('./internal/_curry2');
-import _isRegExp from ('./internal/_isRegExp');
-import toString from ('./toString');
+import _cloneRegExp from './internal/_cloneRegExp');
+import _curry2 from './internal/_curry2');
+import _isRegExp from './internal/_isRegExp');
+import toString from './toString';
 
 
 /**
