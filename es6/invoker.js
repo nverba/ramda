@@ -22,7 +22,7 @@ import toString from './toString';
  * @return {Function} A new curried function.
  * @example
  *
- *      var sliceFrom = R.invoker(1, 'slice');
+ *      var sliceFrom = R.invoker(1, 'slice';
  *      sliceFrom(6, 'abcdefghijklm'); //=> 'ghijklm'
  *      var sliceFrom6 = R.invoker(2, 'slice')(6);
  *      sliceFrom6(8, 'abcdefghijklm'); //=> 'gh'

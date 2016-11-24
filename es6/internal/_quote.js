@@ -7,7 +7,7 @@ export default function _quote(s) {
     .replace(/\r/g, '\\r')
     .replace(/\t/g, '\\t')
     .replace(/\v/g, '\\v')
-    .replace(/\0/g, '\\0';
+    .replace(/\0/g, '\\0');
 
   return '"' + escaped.replace(/"/g, '\\"') + '"';
 };

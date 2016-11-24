@@ -3,7 +3,7 @@ var replace = require('gulp-replace');
 
 gulp.task('es6:files', function () {
   return gulp.src(['src/**/*.js'], { base: "./src" })
-    .pipe(replace(/'\);$(?=\s*^(var)|\s+$)/gm, "';"))
+    .pipe(replace(/(var.*)('\);)/gm, "$1';"))
     .pipe(replace(/^var /gm, 'import '))
     .pipe(replace(/ = require\(/g, ' from '))
     .pipe(replace(/module\.exports =/g, "export default"))

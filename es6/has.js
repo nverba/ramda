@@ -15,7 +15,7 @@ import _has from './internal/_has';
  * @return {Boolean} Whether the property exists.
  * @example
  *
- *      var hasName = R.has('name');
+ *      var hasName = R.has('name';
  *      hasName({name: 'alice'});   //=> true
  *      hasName({name: 'bob'});     //=> true
  *      hasName({});                //=> false

@@ -29,7 +29,7 @@ import constructN from './constructN';
  *      AnimalConstructor('Pig'); //=> {"kind": "Pig", "sighting": function (){...}};
  *
  *      var animalTypes = ["Lion", "Tiger", "Bear"];
- *      var animalSighting = R.invoker(0, 'sighting');
+ *      var animalSighting = R.invoker(0, 'sighting';
  *      var sightNewAnimal = R.compose(animalSighting, AnimalConstructor);
  *      R.map(sightNewAnimal, animalTypes); //=> ["It's a Lion!", "It's a Tiger!", "It's a Bear!"]
  */
