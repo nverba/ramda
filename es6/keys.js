@@ -22,7 +22,7 @@ import _isArguments from './internal/_isArguments';
  */
 export default (function() {
   // cover IE < 9 keys issues
-  var hasEnumBug = !({toString: null}).propertyIsEnumerable('toString';
+  var hasEnumBug = !({toString: null}).propertyIsEnumerable('toString');
   var nonEnumerableProps = ['constructor', 'valueOf', 'isPrototypeOf', 'toString',
                             'propertyIsEnumerable', 'hasOwnProperty', 'toLocaleString'];
   // Safari bug

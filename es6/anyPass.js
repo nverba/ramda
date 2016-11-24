@@ -23,8 +23,8 @@ import reduce from './reduce';
  * @see R.allPass
  * @example
  *
- *      var isClub = R.propEq('suit', '♣';
- *      var isSpade = R.propEq('suit', '♠';
+ *      var isClub = R.propEq('suit', '♣');
+ *      var isSpade = R.propEq('suit', '♠');
  *      var isBlackCard = R.anyPass([isClub, isSpade]);
  *
  *      isBlackCard({rank: '10', suit: '♣'}); //=> true
